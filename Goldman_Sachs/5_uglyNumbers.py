@@ -4,7 +4,6 @@ class Solution:
         lst = [1]
         for i in range(n-1):
             res = min((lst[dp[0]])*2 ,lst[dp[1]]* 3 ,lst[dp[2]]*5)
-            
             if res == lst[dp[0]]* 2:
                 dp[0] += 1
             if res == lst[dp[1]]* 3:
