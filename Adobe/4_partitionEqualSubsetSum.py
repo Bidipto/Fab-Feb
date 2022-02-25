@@ -1,4 +1,4 @@
-#maintain a set with or without takeing a number
+#maintain a set with or without take ing a number
 def equalPartition(self, N, arr):
         summ = sum(arr)
         if summ % 2:
